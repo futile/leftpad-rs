@@ -1,11 +1,11 @@
 [package]
 name = "left-pad"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Felix Rath <felixr@archlinux.info>"]
 description = "Provides left-padding for strings."
 keywords = ["padding", "pad"]
 repository = "https://github.com/futile/leftpad-rs.git"
-homepage = "https://github.com/futile/leftpad-rs"
+homepage = "https://futile.github.io/leftpad-rs"
 documentation = "https://futile.github.io/leftpad-rs"
 license = "MIT"
 readme = "README.md"
