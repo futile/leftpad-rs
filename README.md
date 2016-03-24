@@ -1,5 +1,7 @@
 # leftpad-rs
 
+##### Note: Rust's builtin `format!` can achieve the same functionality: https://doc.rust-lang.org/std/fmt/index.html#fillalignment
+
 This crate provides generic left-padding functions for strings, including both `&str` and `String`.
 
 Import with `extern crate left_pad;`.
