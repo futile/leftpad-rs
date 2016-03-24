@@ -4,6 +4,8 @@ This crate provides generic left-padding functions for strings, including both `
 
 Import with `extern crate left_pad;`.
 
+## [Link to the documentation](https://futile.github.io/leftpad-rs/left_pad/index.html)
+
 Usage example:
 
 ```rust

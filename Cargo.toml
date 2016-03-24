@@ -6,5 +6,6 @@ description = "Provides left-padding for strings."
 keywords = ["padding", "pad"]
 repository = "https://github.com/futile/leftpad-rs.git"
 homepage = "https://github.com/futile/leftpad-rs"
+documentation = "https://futile.github.io/leftpad-rs"
 license = "MIT"
 readme = "README.md"
