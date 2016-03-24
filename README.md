@@ -6,7 +6,7 @@ Import with `extern crate left_pad;`.
 
 Usage example:
 
-```
+```rust
 use left_pad::{leftpad, leftpad_with};
 
 assert_eq!(leftpad("blubb", 7), "  blubb");
