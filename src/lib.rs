@@ -68,14 +68,12 @@ pub fn leftpad_with<'a, S>(string: S, len: usize, pad_char: char) -> Cow<'a, str
 /// # Examples
 ///
 /// ```
-/// use left_pad::leftpad;
+/// use left_pad::{leftpad,leftpad_with};
 ///
 /// assert_eq!(leftpad("blubb", 7), "  blubb");
 ///
 /// assert_eq!(leftpad("blubb", 5), "blubb");
 /// assert_eq!(leftpad("blubb", 3), "blubb");
-///
-/// use left_pad::leftpad_with;
 ///
 /// assert_eq!(leftpad("blubb", 7), leftpad_with("blubb", 7, ' '));
 /// ```
