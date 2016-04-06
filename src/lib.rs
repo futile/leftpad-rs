@@ -46,12 +46,7 @@ pub fn leftpad_with<'a, S>(string: S, codepoints: usize, pad_char: char) -> Cow<
 {
     let cow = string.into();
 
-    let cow_codepoints = {
-        let s: &str = cow.borrow();
-        s.len() - s.bytes()
-                   .filter(|b| (b >> 6) == 0b10u8 )
-                   .count()
-    };
+    let cow_codepoints = cow.chars().count();
     if codepoints <= cow_codepoints {
         return cow;
     }
