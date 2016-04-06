@@ -38,6 +38,8 @@ use std::borrow::Borrow;
 ///
 /// assert_eq!(leftpad_with("blübb", 5, ' '), "blübb");
 /// assert_eq!(leftpad_with("blübb", 3, ' '), "blübb");
+///
+/// assert_eq!(leftpad_with("čömbiñiñg märks", 22, ' '),  "  čömbiñiñg märks");
 /// ```
 pub fn leftpad_with<'a, S>(string: S, codepoints: usize, pad_char: char) -> Cow<'a, str>
     where S: Into<Cow<'a, str>>
@@ -86,6 +88,8 @@ pub fn leftpad_with<'a, S>(string: S, codepoints: usize, pad_char: char) -> Cow<
 /// assert_eq!(leftpad("blübb", 3), "blübb");
 ///
 /// assert_eq!(leftpad("blübb", 7), leftpad_with("blübb", 7, ' '));
+///
+/// assert_eq!(leftpad("čömbiñiñg märks", 22),  "  čömbiñiñg märks");
 /// ```
 pub fn leftpad<'a, S>(string: S, codepoints: usize) -> Cow<'a, str>
     where S: Into<Cow<'a, str>>
