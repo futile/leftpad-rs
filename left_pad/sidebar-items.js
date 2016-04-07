@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["leftpad","Pads a string to the given number of chars by inserting spaces from the left."],["leftpad_with","Pads a string to the given number of chars by inserting the character `pad_char` from the left."]]});
